@@ -1,0 +1,15 @@
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\bin\Debug\net6.0\Lesson3Homework.exe
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\bin\Debug\net6.0\Lesson3Homework.deps.json
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\bin\Debug\net6.0\Lesson3Homework.runtimeconfig.json
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\bin\Debug\net6.0\Lesson3Homework.dll
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\bin\Debug\net6.0\Lesson3Homework.pdb
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\obj\Debug\net6.0\Lesson3Homework.csproj.AssemblyReference.cache
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\obj\Debug\net6.0\Lesson3Homework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\obj\Debug\net6.0\Lesson3Homework.AssemblyInfoInputs.cache
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\obj\Debug\net6.0\Lesson3Homework.AssemblyInfo.cs
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\obj\Debug\net6.0\Lesson3Homework.csproj.CoreCompileInputs.cache
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\obj\Debug\net6.0\Lesson3Homework.dll
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\obj\Debug\net6.0\refint\Lesson3Homework.dll
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\obj\Debug\net6.0\Lesson3Homework.pdb
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\obj\Debug\net6.0\Lesson3Homework.genruntimeconfig.cache
+C:\Users\Михаил\Desktop\TeachmeSkill\Lesson3\Lesson3Homework\obj\Debug\net6.0\ref\Lesson3Homework.dll

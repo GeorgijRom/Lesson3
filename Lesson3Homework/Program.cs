@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // Первое задание
-            
+            Console.WriteLine(test);
             Console.WriteLine("Введите номер месяца для первого задания");
             string? monthNumberSwitch = Console.ReadLine();
             Console.WriteLine(seasonCalculateSwitch(monthNumberSwitch));
@@ -62,118 +62,62 @@
         {
             switch (monthNumber)
             {
-                case "1":
-                    return "январь";
-                case "2":
-                    return "февраль";
-                case "3":
-                    return "март";
-                case "4":
-                    return "апрель";
-                case "5":
-                    return "май";
-                case "6":
-                    return "июнь";
-                case "7":
-                    return "июль";
-                case "8":
-                    return "август";
-                case "9":
-                    return "сентябрь";
-                case "10":
-                    return "октябрь";
-                case "11":
-                    return "ноябрь";
                 case "12":
-                    return "декабрь";
+                case "1":
+                case "2":
+                    return "зима";
+                case "3":
+                case "4":
+                case "5":
+                    return "весна";
+                case "6":
+                case "7":
+                case "8":
+                    return "лето";
+                case "9":
+                case "10":
+                case "11":
+                    return "осень";
                 default:
                     return "введены неверные данные";
             }
         }
-        static string seasonCalculateIf(string monthNumber) // Метод для второго задания
+        static string seasonCalculateIf(string monthNumberStr) // Метод для второго задания
         {
-            if (monthNumber == "1")
+            bool succesIntPars = int.TryParse(monthNumberStr, out int monthNumber);
+            if (succesIntPars == true & monthNumber <= 12 & monthNumber >= 1)
             {
-                return "январь";
-            }
-            else
-            {
-                if (monthNumber == "2")
+                if ((monthNumber >= 1 && monthNumber <= 2) | monthNumber == 12)
                 {
-                    return "февраль";
+                    return "зима";
                 }
                 else
                 {
-                    if (monthNumber == "3")
+                    if (monthNumber >= 3 && monthNumber <= 5)
                     {
-                        return "март";
+                        return "весна";
                     }
                     else
                     {
-                        if (monthNumber == "4")
+                        if (monthNumber >= 6 && monthNumber <= 8)
                         {
-                            return "апрель";
+                            return "лето";
                         }
                         else
                         {
-                            if (monthNumber == "5")
+                            if (monthNumber >= 9 && monthNumber <= 11)
                             {
-                                return "май";
+                                return "осень";
                             }
                             else
-                            {
-                                if (monthNumber == "6")
-                                {
-                                    return "июнь";
-                                }
-                                else
-                                {
-                                    if(monthNumber == "7")
-                                    {
-                                        return "июль";
-                                    }
-                                    else
-                                    {
-                                        if (monthNumber == "8")
-                                        {
-                                            return "август";
-                                        }
-                                        else
-                                        {
-                                            if (monthNumber == "9")
-                                            {
-                                                return "сентябрь";
-                                            }
-                                            else
-                                            {
-                                                if (monthNumber == "10") 
-                                                {
-                                                    return "октябрь";
-                                                }
-                                                else
-                                                {
-                                                    if (monthNumber =="11")
-                                                    {
-                                                        return "ноябрь";
-                                                    }
-                                                    else
-                                                    {
-                                                        if (monthNumber == "12")
-                                                        {
-                                                            return "декабрь";
-                                                        }
-                                                        else
-                                                            return "некорректное значение";
-                                                    }
-                                                }
-                                            }
-                                        }
-                                    }
-                                }
-                            }
+                                return "Введено некорректное значение";
                         }
                     }
                 }
+            }
+            else
+            {
+                return "введены неправильные данные";
             }
         }
         static string isNumberEven(int number) //метод для третьего задания

@@ -137,16 +137,11 @@
                     {
                         if (num1 >= 0)
                         {
-                            if (num1 == 0)
-                            {
-                                num1 = 0;
-                            }
-                            else
-                            {
-                                double num1Doub = decimal.ToDouble(num1);
-                                num1Doub /= Math.Sqrt(num1Doub);
-                                num1 = Convert.ToDecimal(num1Doub);
-                            }
+
+                            double num1Doub = decimal.ToDouble(num1);
+                            num1Doub = Math.Sqrt(num1Doub);
+                            num1 = Convert.ToDecimal(num1Doub);
+                            
                         }
                         else
                         {

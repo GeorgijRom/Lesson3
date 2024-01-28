@@ -44,6 +44,16 @@
                     case "/":
                         isRightOperator= true;
                         break;
+                    case "sqrt":
+                        {
+                            if(num1<0)
+                            {
+                                Console.WriteLine("взятие корня из отрицательного числа невозможно");
+                            }
+                            else
+                                isRightOperator = true;
+                        }
+                        break;
                     case "%":
                         isRightOperator= true;
                         break;
@@ -80,6 +90,7 @@
             {
                 if (countInput % 2 == 1)
                 {
+                    if(inputStr!="sqrt")
                     num1 = numInput(inputStr);
                     if (countInput != 1)
                     {
@@ -122,6 +133,28 @@
                         }
                     }
                     return num1;
+                case "sqrt":
+                    {
+                        if (num1 >= 0)
+                        {
+                            if (num1 == 0)
+                            {
+                                num1 = 0;
+                            }
+                            else
+                            {
+                                double num1Doub = decimal.ToDouble(num1);
+                                num1Doub /= Math.Sqrt(num1Doub);
+                                num1 = Convert.ToDecimal(num1Doub);
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("взятие корня из отрицательного числа невозможно");
+                            exitDefenition = 0;
+                        }
+                        return num1;
+                    }
                 case "%":
                     num1 = (num1 / 100) * num2;
                     return num1;
